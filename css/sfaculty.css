@@ -1,0 +1,72 @@
+body{
+    background-image: url(img/SignBack.jpg);
+    background-position: center;
+}
+#select_text{
+    margin-top: 100px;
+    width: 100%;
+}
+.enter_b{
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    margin-top: 50%;
+    background-color: cornflowerblue;
+}
+#div_x{
+    height: 380px;
+    padding-left: 6%;
+}
+.flip3d {
+	width: 380px;
+	height: 280px;
+	float: left;
+    text-align: center;
+    margin-left: 20px;
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.flip3d > .front {
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY( 0deg );
+	transform: perspective(600px) rotateY( 0deg );
+	background: #FC0; width: 380px; height: 380px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+    border-radius: 30px;
+    background-image: url(/img/select.jpg);
+}
+.flip3d > .back {
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY( 180deg );
+	transform: perspective(600px) rotateY( 180deg );
+	background: #80BFFF; width: 380px; height: 380px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+    border-radius: 30px;
+    background-image: url(/img/select.jpg);
+}
+.flip3d:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+
+.flip3d:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+#footer_s{
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

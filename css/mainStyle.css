@@ -1,0 +1,102 @@
+
+
+body {
+    
+    font: 15px/1.5 Arial, Helvetic, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+	text-align: center;
+	color: orangered;
+}
+
+#logo{
+	margin: 5px;
+	text-align: center;
+	width: 20%;
+	height: 75px;
+	background-color:black;
+	float: left;
+}
+
+#con{
+	width: 80%;
+	height: 60px;
+	background-color: aliceblue;
+	float: left;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: orangered;
+}
+
+
+#current{
+    color: orangered;
+    font-weight: 100;
+	font-weight: bold;
+    }
+
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#x{
+    z-index: 1;
+    background-color: black;
+    margin-top: 30px;
+    text-align: center;
+    height: 35px;
+}
+
+header{
+	z-index: 1; /* set header on top */
+	background:black;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 30px black; /* header shadow */
+	opacity: 0.95;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+
+header a:hover {
+    color:orange;
+    font-weight:bold;
+}
+
+footer{
+    padding: 1px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.whatis{
+    style="float: left;
+    background-color: #E0E562;
+    margin-top: 10px;
+    padding: 5px 15px"
+}
+
